@@ -3,10 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h1>Hello World</h1>
+<body class="bg-white m-0 p-0">
+    <div class="w-screen h-screen relative bg-white overflow-hidden">
+        <!-- Background area - responsive -->
+        <div class="absolute left-[56px] right-[56px] top-[57px] bottom-[57px] bg-gradient-to-b from-[#FFFFFF] to-[#FAFCFF]"></div>
+
+        <!-- Left vertical line -->
+        <div class="absolute left-[56px] top-0 bottom-0 w-px bg-[#CCE0FF]"></div>
+
+        <!-- Right vertical line -->
+        <div class="absolute right-[56px] top-0 bottom-0 w-px bg-[#CCE0FF]"></div>
+
+        <!-- Top horizontal line -->
+        <div class="absolute top-[57px] left-0 right-0 h-px bg-[#CCE0FF]"></div>
+
+        <!-- Bottom horizontal line -->
+        <div class="absolute bottom-[57px] left-0 right-0 h-px bg-[#CCE0FF]"></div>
+    </div>
 </body>
 </html>
