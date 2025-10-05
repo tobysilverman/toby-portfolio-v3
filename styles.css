@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Responsive grid using background gradients */
+.grid-container {
+    background-image:
+        /* Vertical lines */
+        repeating-linear-gradient(
+            to right,
+            #F0F6FF 0px,
+            #F0F6FF 1px,
+            transparent 1px,
+            transparent 16px
+        ),
+        /* Horizontal lines */
+        repeating-linear-gradient(
+            to bottom,
+            #F0F6FF 0px,
+            #F0F6FF 1px,
+            transparent 1px,
+            transparent 16px
+        );
+    background-size: 16px 16px;
+    background-position: 0 0;
+}
+
+/* Corner bracket styles */
+.corner-bracket {
+    width: 8px;
+    height: 8px;
+    position: relative;
+}
+
+.corner-bracket-top-left {
+    border-top: 2px solid #0066FF;
+    border-left: 2px solid #0066FF;
+}
+
+.corner-bracket-top-right {
+    border-top: 2px solid #0066FF;
+    border-right: 2px solid #0066FF;
+}
+
+.corner-bracket-bottom-left {
+    border-bottom: 2px solid #0066FF;
+    border-left: 2px solid #0066FF;
+}
+
+.corner-bracket-bottom-right {
+    border-bottom: 2px solid #0066FF;
+    border-right: 2px solid #0066FF;
+}

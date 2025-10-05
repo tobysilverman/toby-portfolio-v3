@@ -127,3 +127,10 @@ Quality Checklist
  [] Clean, semantic HTML
  [] No added features or embellishments
  [] All spacings match design precisely
+
+
+Design System
+Colors
+Blue.Primary = 0066FF
+Blue.Light = CCE0FF
+Blue.Ultralight = F0F6FF
